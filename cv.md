@@ -1,6 +1,9 @@
 rsshool cv
+
 Yuliya Verameyeva
+
 Contacts
+
 Location: Gomel, Belarus
 Phone: +375257146778
 Email: veremeeva96@gmail.com
