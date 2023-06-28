@@ -16,6 +16,7 @@ Github: @Verminas
 
 ## Code Example
 
+```
 function bmi(weight, height) {
   let bmi = weight / (height**2);
   if (bmi <= 18.5){
@@ -28,6 +29,7 @@ function bmi(weight, height) {
     return "Obese";
   }
 }
+```
 
 ## Experience
 
