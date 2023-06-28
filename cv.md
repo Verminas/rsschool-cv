@@ -15,11 +15,18 @@ Skills
 Code Example
 
 Experience
+
 Education
+  
   University: Belarusian State University, the Faculty of Chemistry
+  
   Institute: Institute for Advanced Studies and Retraining of Personnel of the State Committee of Forensic Examinations of the Republic of Belarus, Forensic medical chemical examination
+  
   Courses: 
+    
     freecodecamp
+
 English
+
 A2 (I am working to improve my level of language proficiency)
 
