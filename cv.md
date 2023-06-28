@@ -6,7 +6,7 @@
 + **Phone**: +375 25 714-67-78
 + **Email**: [veremeeva96@gmail.com ](veremeeva96@gmail.com)
 + **Github**: [Verminas ](https://github.com/Verminas)
-+ **[Linkedin ](https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%B5%D0%B2%D0%B0-690945276/)
++ [Linkedin ](https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%B5%D0%B2%D0%B0-690945276/)
 
 ## About me
 
@@ -39,8 +39,8 @@ function bmi(weight, height) {
 
 ## Education
   
- + **University**: Belarusian State University, the Faculty of Chemistry  
- + **Institute**: Institute for Advanced Studies and Retraining of Personnel of the State Committee of Forensic Examinations of the Republic of Belarus, Forensic medical chemical examination  
+ + **University**: Belarusian State University, the Faculty of Chemistry (2014-2019)
+ + **Institute**: Institute for Advanced Studies and Retraining of Personnel of the State Committee of Forensic Examinations of the Republic of Belarus, Forensic medical chemical examination (2019-2020)
  + **Courses**: 
     
      + HTML and CSS (Responsive Web Design) on [freecodecamp ](https://www.freecodecamp.org/learn) (completed)
