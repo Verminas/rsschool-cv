@@ -1,6 +1,6 @@
-#Yuliya Verameyeva
+# Yuliya Verameyeva
 
-##Contacts
+## Contacts
 
 Location: Gomel, Belarus
 
@@ -10,11 +10,11 @@ Email: veremeeva96@gmail.com
 
 Github: @Verminas
 
-##About me
+## About me
 
-##Skills
+## Skills
 
-##Code Example
+## Code Example
 
 function bmi(weight, height) {
   let bmi = weight / (height**2);
@@ -29,9 +29,9 @@ function bmi(weight, height) {
   }
 }
 
-##Experience
+## Experience
 
-##Education
+## Education
   
   University: Belarusian State University, the Faculty of Chemistry
   
@@ -41,7 +41,7 @@ function bmi(weight, height) {
     
     freecodecamp
 
-##English
+## English
 
 A2 (I am working to improve my level of language proficiency)
 
