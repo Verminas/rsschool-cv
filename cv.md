@@ -42,7 +42,9 @@ function bmi(weight, height) {
  + **Institute**: Institute for Advanced Studies and Retraining of Personnel of the State Committee of Forensic Examinations of the Republic of Belarus, Forensic medical chemical examination  
  + **Courses**: 
     
-     + freecodecamp
+     + HTML and CSS (Responsive Web Design) on [freecodecamp ](https://www.freecodecamp.org/learn) (completed)
+     + JavaScript (JavaScript Algorithms and Data Structures) on [freecodecamp ](https://www.freecodecamp.org/learn) (in progress)
+     + JavaScript on https://learn.javascript.ru/ (in progress)
 
 ## English
 
