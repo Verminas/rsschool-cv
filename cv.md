@@ -3,9 +3,10 @@
 ## Contacts
 
 + **Location**: Gomel, Belarus
-+ **Phone**: +375257146778
-+ **Email**: veremeeva96@gmail.com
-+ **Github**: @Verminas
++ **Phone**: +375 25 714-67-78
++ **Email**: [veremeeva96@gmail.com ](veremeeva96@gmail.com)
++ **Github**: [Verminas ](https://github.com/Verminas)
++ **[Linkedin ](https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%B5%D0%B2%D0%B0-690945276/)
 
 ## About me
 
