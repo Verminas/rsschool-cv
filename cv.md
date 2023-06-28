@@ -2,17 +2,21 @@
 
 ## Contacts
 
-**Location**: Gomel, Belarus
++ **Location**: Gomel, Belarus
 
-**Phone**: +375257146778
++ **Phone**: +375257146778
 
-**Email**: veremeeva96@gmail.com
++ **Email**: veremeeva96@gmail.com
 
-**Github**: @Verminas
++ **Github**: @Verminas
 
 ## About me
 
 ## Skills
+
++ HTML
+
++ CSS
 
 ## Code Example
 
@@ -35,13 +39,13 @@ function bmi(weight, height) {
 
 ## Education
   
-  **University**: Belarusian State University, the Faculty of Chemistry
+ + **University**: Belarusian State University, the Faculty of Chemistry
   
-  **Institute**: Institute for Advanced Studies and Retraining of Personnel of the State Committee of Forensic Examinations of the Republic of Belarus, Forensic medical chemical examination
+ + **Institute**: Institute for Advanced Studies and Retraining of Personnel of the State Committee of Forensic Examinations of the Republic of Belarus, Forensic medical chemical examination
   
-  **Courses**: 
+ + **Courses**: 
     
-    freecodecamp
+     + freecodecamp
 
 ## English
 
