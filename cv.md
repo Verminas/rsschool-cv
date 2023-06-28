@@ -10,7 +10,15 @@
 
 ## About me
 
+I am 26 years old, at the moment I work as a state medical forensic chemist in the department of the state committee for forensic examinations in the Gomel region. I liked my work, but such activity in a state organization imposes some restrictions on me as a person. I have always wanted to try myself in an activity where I can fully reveal myself as a good specialist and as a creative person. Therefore, I opted for the profession of a front-end developer.
 
+To describe my strengths, they would be:
++ multitasking
++ skill to work in team
++ self-learning ability
++ interest in everything new
++ perseverance
++ attentiveness
 
 ## Skills
 
