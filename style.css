@@ -5,6 +5,7 @@ font-family: 'Manrope', sans-serif; для текста*/
 *{
 	text-decoration: none;
 	box-sizing: border-box;
+    list-style-type: none;
 }
 html {
     scroll-behavior: smooth; /*для плавного передвижения скролла*/
@@ -68,10 +69,42 @@ body{
 .main-container{
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
-.section{
+.section:not(#profile){
     width: 50%;
+    height: auto;
+    margin-top: 20px;
+    border-left: 3px solid var(--color-text-hover);
+    
 }
+
+/*ниже меняю порядок элементов, чтобы не было странного пространства между ними*/
+#contacts{
+    order: 1;
+}
+#skills{
+    order: 2;
+}
+#summary{
+    order: 3;
+}
+#code{
+    order: 4;
+}
+#projects{
+    order:5;
+}
+#education{
+    order:6;
+}
+#courses{
+    order: 7;
+}
+#english{
+    order: 8;
+}
+
 /*медиазапрос для определенной ширины экрана*/
 @media (max-width: 768px) {
     .section {
@@ -80,6 +113,7 @@ body{
   }
   /*стилизация шрифтов*/
 body{
+    min-width: 1200px;
     font-family: 'Manrope', 'Times New Roman', sans-serif;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -132,4 +166,23 @@ header, footer{
 }
 footer .container a{
     color: whitesmoke;
+}
+#profile{
+    position: relative;
+    height: 58vh;
+}
+#photo{
+    width: 40%;
+    min-width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    z-index: -1;
+    background: rgb(186,174,238);
+    background: radial-gradient(circle, rgba(186,174,238,1) 0%, rgba(148,198,233,1) 100%);
+    border-radius: 0 0 50% 50%;
+}
+main ul li::before{
+    content: "✯ ";
 }
