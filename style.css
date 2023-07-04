@@ -76,9 +76,7 @@ body{
     height: auto;
     margin-top: 20px;
     border-left: 3px solid var(--color-text-hover);
-    
 }
-
 /*ниже меняю порядок элементов, чтобы не было странного пространства между ними*/
 #contacts{
     order: 1;
@@ -93,27 +91,27 @@ body{
     order: 4;
 }
 #projects{
-    order:5;
+    order:7;
 }
 #education{
-    order:6;
+    order:5;
 }
 #courses{
-    order: 7;
+    order: 6;
 }
 #english{
     order: 8;
 }
 
 /*медиазапрос для определенной ширины экрана*/
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .section {
       width: 100%;
     }
   }
   /*стилизация шрифтов*/
 body{
-    min-width: 1200px;
+   /* min-width: 1200px;*/
     font-family: 'Manrope', 'Times New Roman', sans-serif;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -148,6 +146,10 @@ section{
     border: 1px solid black;
     padding: 20px 10px 20px 20px;
 }
+.section:hover{
+    background: rgb(186,174,238);
+    background: radial-gradient(circle, rgba(186,174,238,0.4) 0%, rgba(148,198,233,0.4) 100%); 
+}
 span{
     font-weight: bold;
 }
@@ -163,6 +165,9 @@ header, footer{
     background: radial-gradient(circle, rgba(186,174,238,1) 0%, rgba(148,198,233,1) 100%);
     font-weight: bold;
     color: whitesmoke;
+}
+footer{
+    padding: 0 50px 0 50px;
 }
 footer .container a{
     color: whitesmoke;
