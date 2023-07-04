@@ -46,13 +46,24 @@ body{
     чтобы перейти по ссылке, и улучшает удобство пользования приложением. важное замечание!*/
     padding: 0 20px;
     line-height: 50px;
-    color: var(--color-text);
+    color: whitesmoke;
     font-size: 1.5rem;
   }
+@keyframes border-bott{
+    0% {
+        border-bottom: none;
+    }
+    100%{
+        border-bottom: 2px solid var(--color-text-hover); 
+    }
+}
   .nav-list a:hover{
     color: var(--color-text-hover);
     transition: color 300ms;
-    text-decoration: underline;
+  /*  border-bottom: 2px solid var(--color-text-hover);*/
+    animation-name: border-bott;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
   }
 .main-container{
     display: flex;
@@ -79,6 +90,7 @@ body{
     font-size: 1.5rem;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
+    text-align: center;
 }
 #name {
     font-size: 3rem;
@@ -104,4 +116,20 @@ section{
 }
 span{
     font-weight: bold;
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+header, footer{
+    background: rgb(186,174,238);
+    background: radial-gradient(circle, rgba(186,174,238,1) 0%, rgba(148,198,233,1) 100%);
+    font-weight: bold;
+    color: whitesmoke;
+}
+footer .container a{
+    color: whitesmoke;
 }
