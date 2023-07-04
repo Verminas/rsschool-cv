@@ -5,7 +5,6 @@ font-family: 'Manrope', sans-serif; для текста*/
 *{
 	text-decoration: none;
 	box-sizing: border-box;
-	font-family: 'Manrope', 'Times New Roman', sans-serif;
 }
 html {
     scroll-behavior: smooth; /*для плавного передвижения скролла*/
@@ -13,6 +12,7 @@ html {
 :root{
 	/*для ввода используемых в дальнейшем переменных*/ 
     --color-text: #14302d;
+    --color-text-hover: #10e5cd;
 }
 /*убираю сразу цвет всех ссылок*/
 a, a:hover, a:active, a:visited{
@@ -50,7 +50,7 @@ body{
     font-size: 1.5rem;
   }
   .nav-list a:hover{
-    color: #10e5cd;
+    color: var(--color-text-hover);
     transition: color 300ms;
     text-decoration: underline;
   }
@@ -67,3 +67,33 @@ body{
       width: 100%;
     }
   }
+  /*стилизация шрифтов*/
+body{
+    font-family: 'Manrope', 'Times New Roman', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--color-text);
+}
+.section-title{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+#name {
+    font-size: 3rem;
+}
+#profile img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
