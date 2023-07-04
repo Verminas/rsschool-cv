@@ -82,6 +82,7 @@ body{
 }
 #name {
     font-size: 3rem;
+    line-height: 3rem;
 }
 #profile img{
     width: 400px;
@@ -96,4 +97,11 @@ footer .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+section{
+    border: 1px solid black;
+    padding: 20px 10px 20px 20px;
+}
+span{
+    font-weight: bold;
 }
