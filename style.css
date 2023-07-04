@@ -142,6 +142,7 @@ section{
 .section:hover{
     background: rgb(186,174,238);
     background: radial-gradient(circle, rgba(186,174,238,0.4) 0%, rgba(148,198,233,0.4) 100%); 
+    border-radius: 15px;
 }
 span{
     font-weight: bold;
