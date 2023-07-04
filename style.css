@@ -12,6 +12,7 @@ html {
   }
 :root{
 	/*для ввода используемых в дальнейшем переменных*/ 
+    --color-text: #14302d;
 }
 /*убираю сразу цвет всех ссылок*/
 a, a:hover, a:active, a:visited{
@@ -38,4 +39,31 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
+  }
+  .nav-list a{ /*Отступы добавляем ссылкам, а не элементам списка. 
+    Это позволяет увеличить площадь, по которой можно кликнуть, 
+    чтобы перейти по ссылке, и улучшает удобство пользования приложением. важное замечание!*/
+    padding: 0 20px;
+    line-height: 50px;
+    color: var(--color-text);
+    font-size: 1.5rem;
+  }
+  .nav-list a:hover{
+    color: #10e5cd;
+    transition: color 300ms;
+    text-decoration: underline;
+  }
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section{
+    width: 50%;
+}
+/*медиазапрос для определенной ширины экрана*/
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
   }
